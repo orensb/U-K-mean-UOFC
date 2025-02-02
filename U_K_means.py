@@ -75,17 +75,10 @@ def U_K_means(X, t_max =100, tol=1e-10):
 
         beta = np.min(np.array([term_1, term_2_1/term_2_2]))
 
-        #im using constant beta for now (found it better)
-        # beta = 1
-
-        # print(f"beta = {beta}")
-
         #step 6 update number of clusters:
-        # print(f"new_alpha = {new_alpha}")
         indices_to_keep = new_alpha >= 1/X.shape[0] 
         new_alpha = new_alpha[indices_to_keep]
         u_relative = u_relative[:, indices_to_keep]
-        # print(f"u_relative.shape = {u_relative.shape}")
         no_of_clusters = new_alpha.reshape(-1).shape[0]
         c_history.append(no_of_clusters)
         if t >= 60:
