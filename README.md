@@ -14,7 +14,8 @@ To validate the results on both synthetic and real-world datasets
 
 ### Validate Measures:
 ![image](https://github.com/user-attachments/assets/d886d300-e20f-4cf8-b0b4-6c7671f489e1)
-![image](https://github.com/user-attachments/assets/6da11047-6737-4e13-9a1e-60ee39c7daaa)
+![image](https://github.com/user-attachments/assets/70724c45-869c-4922-bfbf-85bcf07e3f4d)
+
 
 
 
