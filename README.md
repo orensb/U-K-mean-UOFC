@@ -12,8 +12,10 @@ To validate the results on both synthetic and real-world datasets
 
 
 
-# Validate Measures:
+### Validate Measures:
 ![image](https://github.com/user-attachments/assets/d886d300-e20f-4cf8-b0b4-6c7671f489e1)
+
+![image](https://github.com/user-attachments/assets/c1a95746-8efc-49b4-9138-34aa504be20e)
 
 
 #Datasets:
