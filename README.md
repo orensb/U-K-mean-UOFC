@@ -9,6 +9,11 @@ To understand and implement the U-K-Means algorithm
 To compare U-K-Means with UOFC and other benchmark algorithms
 To validate the results on both synthetic and real-world datasets
 
+Silhouette Width (SW): provides a way to measure how similar an object is to its own cluster compared to other clusters   𝑆𝑊=1/𝑁 ∑1_(𝑖=1)^𝑁▒〖(𝑠(𝑖)=(𝑎(𝑖)−𝑏(𝑖))/𝑚𝑎𝑥⁡{𝑎(𝑖),𝑏(𝑖)} 〗the result S(i) is between [-1,1] when 1 means that a point is far from the neighbor cluster 
+
+
+
+
 # Validate Measures:
 1) Silhouette Width (SW): provides a way to measure how similar an object is to its own cluster compared to other clusters   is between [-1,1] when 1 means that a point is far from the neighbor cluster 
 ![image](https://github.com/user-attachments/assets/d886d300-e20f-4cf8-b0b4-6c7671f489e1)
